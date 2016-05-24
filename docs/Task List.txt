@@ -1,0 +1,31 @@
+Task List
+1. requirements
+2. analysis
+3. design
+4. db design
+5. implements 
+
+docs:
+codeigniter architecture
+http://www.slideshare.net/minhrau111/codeigniter
+
+Codeigniter: Best way to structure partial views
+http://stackoverflow.com/questions/3675135/codeigniter-best-way-to-structure-partial-views
+
+JSON Error / Exception Messages in Codeigniter 2.0+
+http://oliversmith.io/technology/2012/04/09/json-error-exception-messages-in-codeigniter-2-0/
+
+Exceptions handler for Codeigniter
+http://trzebinski.info/exception-handler-for-code-igniter/
+
+Simple Way To Add Global Exception Handling In CodeIgniter
+http://thecancerus.com/simple-way-to-add-global-exception-handling-in-codeigniter/
+
+set_exception_handler in codeigniter - how to use?
+http://stackoverflow.com/questions/11176815/set-exception-handler-in-codeigniter-how-to-use
+
+Hooks - Extending the Framework Core
+https://ellislab.com/codeigniter/user-guide/general/hooks.html
+
+Form Validation
+https://ellislab.com/codeigniter/user-guide/libraries/form_validation.html
