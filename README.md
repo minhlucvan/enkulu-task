@@ -36,15 +36,15 @@ hình 2.1 biểu đồ use case model
 
 Hình 2.2 add user use case
 
-**luồng sự kiện:**\
+**luồng sự kiện:**  
 người quản trị ấn vào nút thêm mới, hệ thống hiện thị form nhập thông tin người dùng, người đùng submit form, hệ thống xác nhận thông tin, thêm người dùng và thông báo kết quả.
 
-**kết quả:**\
+**kết quả:**  
 nếu ca sử dụng thành công người dung  mới sẽ được thêm và thông báo thành công, nếu có lỗi hệ thống sẽ  thông báo lỗi.
 
-**yêu cầu:**\
-email phải duy nhất và đúng định dạng\
-số điện thoại phải là các chữ số\
+**yêu cầu:**  
+email phải duy nhất và đúng định dạng  
+số điện thoại phải là các chữ số  
 avatar phải là file ảnh, kích thước bị giới hạn
 
 **ngoại lệ**
@@ -53,36 +53,36 @@ avatar phải là file ảnh, kích thước bị giới hạn
 - không thể thêm người dùng: báo lỗi không thể thêm người dùng
 
 ##### delete user 
-**mô tả:**\
+**mô tả:**  
 đây là ca sử dụng xóa người dùng
 
-**luồng sự kiện**\
+**luồng sự kiện**  
 người quản trị ấn vào nút xóa, trong mục action của người dùng. hệ thống thực hiện xóa người dùng và thông báo kết quả.
 
-**kết quả:**\
+**kết quả:**  
 nếu ca sử dụng thành công thông tin người dùng sẽ bị xóa khỏi database, và thông báo thành công
 
-**yêu cầu**\
+**yêu cầu**  
 người dùng tồn tại\
 
 **ngoại lệ**
-- người dùng không tồn tại: thông báo nguwoif dùng không tồn tại\
-- xóa không thành công: thông báo không thể xóa người dùng\
+- người dùng không tồn tại: thông báo nguwoif dùng không tồn tại  
+- xóa không thành công: thông báo không thể xóa người dùng  
 
 ##### edit user 
 
-**mô tả**\
+**mô tả**  
 đây là ca sử dụng sửa thông tin người dùng
 
-**luồng sự kiện**\
+**luồng sự kiện**  
 người quản trị ấn vào nút edit, hệ thống hiện thị form edit người dùng, người quản trị submit thông tin người dùng, hệ thống kiểm tra thông tin, lưu lại và thông báo kết quả.
 
-**kết quả**\
+**kết quả**  
 nếu ca sử dụng thành công, thông tin người dùng sẽ được thay đổi và thông báo thành công
 
-**yêu cầu**\
-email phải duy nhất và đúng định dạng\
-số điện thoại phải là các chữ số\
+**yêu cầu**  
+email phải duy nhất và đúng định dạng  
+số điện thoại phải là các chữ số  
 avatar phải là file ảnh, kích thước bị giới hạn
 
 **ngoại lệ**
@@ -92,23 +92,23 @@ avatar phải là file ảnh, kích thước bị giới hạn
 
 ##### list user
 
-**mô tả:**\
+**mô tả:**  
 đây là ca sử dụng hiện thị danh sách người dùng
 
-**luồng sự kiện:**\
+**luồng sự kiện:**  
 người quản trị gửi yêu cầu xem danh sách người dùng, hệ thống trả lại danh sách người dùng
 
-**kết quả:**\
+**kết quả:**  
 nếu ca sử dụng thành công hệ thống trả lại danh sách người dùng
-**yêu cầu**\  
+**yêu cầu**    
 giao diện có nút add user\
-thông tin hiện thị dưới dạng bảng, mỗi dòng là một user\ 
-có phân trang\
-mỗi user phải có các trường: tên, email, sđt, avatar\
-với mỗi user có các tác vụ sủa thông tin và xóa\
+thông tin hiện thị dưới dạng bảng, mỗi dòng là một user  
+có phân trang  
+mỗi user phải có các trường: tên, email, sđt, avatar  
+với mỗi user có các tác vụ sủa thông tin và xóa  
 
 **ngoại lệ**
-- danh sách trống: thông báo không có user\
+- danh sách trống: thông báo không có user  
 - user không có avatar: hiện thị avatar mặc định
 
 ## III. Thiết kế
