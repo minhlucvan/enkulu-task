@@ -38,7 +38,14 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['default_controller'] = "maincontroller";
+$route['user/add'] = "usercontroller/addUser";
+$route['user/update/(:num)'] = "usercontroller/updateUser/$1";
+$route['user/list'] = "usercontroller/listUser/1";
+$route['user/list/(:num)'] = "usercontroller/listUser/$1";
+$route['user/info/(:num)'] = "usercontroller/getUserInfo/$1";
+$route['user/delete/(:num)'] = "usercontroller/deleteUser/$1";
+
 $route['404_override'] = '';
 
 
